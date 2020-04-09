@@ -1,17 +1,9 @@
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
-
-  generate: {
-    routes: [
-      '/about',
-      '/jokes'
-    ]
-  },
-
   head: {
     title: process.env.npm_package_name || '',
     meta: [
